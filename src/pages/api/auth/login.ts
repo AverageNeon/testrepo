@@ -7,10 +7,9 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     locale?: string;
   };
 
-  const url =
-    'hhttps://discord.com/oauth2/authorize?client_id=1121643516158824508&permissions=8&scope=bot%20applications.commands' +
+  const url ='https://discord.com/oauth2/authorize?client_id=1121643516158824508&permissions=8&scope=bot%20applications.commands' +
     new URLSearchParams({
-      client_id: CLIENT_ID,
+      client_id: 1121643516158824508,
       redirect_uri: `${getAbsoluteUrl()}/api/auth/callback`,
       response_type: 'code',
       scope: 'identify guilds',
