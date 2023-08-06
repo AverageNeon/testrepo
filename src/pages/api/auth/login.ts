@@ -8,7 +8,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   };
 
   const url =
-    'https://discord.com/api/oauth2/authorize?' +
+    'hhttps://discord.com/oauth2/authorize?client_id=1121643516158824508&permissions=8&scope=bot%20applications.commands' +
     new URLSearchParams({
       client_id: CLIENT_ID,
       redirect_uri: `${getAbsoluteUrl()}/api/auth/callback`,

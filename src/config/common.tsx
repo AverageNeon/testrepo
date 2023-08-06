@@ -3,7 +3,7 @@ import { PermissionFlags } from '@/api/discord';
 import { AppConfig } from './types';
 
 const BotIcon = createIcon({
-  displayName: 'OmagizeLogo',
+  displayName: 'kydae-logo',
   viewBox: '0 0 512 512',
   path: (
     <g>
